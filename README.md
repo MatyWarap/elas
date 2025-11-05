@@ -123,17 +123,17 @@ El proyecto sigue el patrón **MVC (Modelo - Vista - Controlador)**:
    git clone https://github.com/usuario/Mesa-Mendocina-App-Web-Full-Stack.git
    cd Mesa-Mendocina-App-Web-Full-Stack
 
-2. **Crear un entorno virtual
+2. **Crear un entorno virtual**
    ```bash
    Python -m venv vevnv
 
-3. **Activar el entorno virtual
+3. **Activar el entorno virtual**
    [Windows]
    ```bash
    venv/scripts/actívate
    [Linux]
    ```bash
    source venv/bin/actívate
-4. **Instalar dependencias
+4. **Instalar dependencias**
    ```bash
    pip install -r requirements.txt
