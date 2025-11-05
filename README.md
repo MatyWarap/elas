@@ -48,8 +48,8 @@ Además, los dueños de locales pueden registrarse y administrar su información
 |--------|-----|
 | **Enzo Rojas** | Backend Developer |
 | **Matías Agüero** | Full Stack Developer |
-| **Gustavo Vera** | Frontend Developer |
-| **Lautaro Videla** | Diseñador UI/UX y Documentación |
+| **Gustavo Vera** | Full Stack Developer |
+| **Lautaro Videla** | Full Stack Developer |
 
 ---
 
@@ -137,3 +137,79 @@ El proyecto sigue el patrón **MVC (Modelo - Vista - Controlador)**:
 4. **Instalar dependencias**
    ```bash
    pip install -r requirements.txt
+
+## 🧱 Migraciones y Ejecución
+
+### 1. Crear las Migraciones
+
+    flask db init
+    flask db migrate -m "Inicialización de la base de datos"
+    flask db upgrade
+
+### 2. Ejecutar la Aplicación
+
+    flask run
+
+> Por defecto, la aplicación estará disponible en:  
+> **http://127.0.0.1:5000**
+
+---
+
+## 🌐 Funcionalidades Principales
+
+- 🔍 Búsqueda y filtrado de locales gastronómicos.  
+- 🧾 Visualización de platos típicos y precios.  
+- ⭐ Valoración y comentarios de los usuarios.  
+- 📅 Sistema de reservas online.  
+- 👨‍💼 Panel para dueños de locales (gestión de información, platos y reservas).  
+- 📱 Interfaz adaptable (responsive) desarrollada con Bootstrap.
+
+---
+
+## 🧠 Estructura del Proyecto
+
+    Mesa-Mendocina/
+    │
+    ├── app/
+    │   ├── static/           # Archivos estáticos (CSS, JS, imágenes)
+    │   ├── templates/        # Vistas HTML con Jinja2
+    │   ├── models.py         # Definición de las entidades
+    │   ├── routes.py         # Rutas y controladores
+    │   ├── forms.py          # Formularios y validaciones
+    │   └── __init__.py       # Inicialización de Flask y base de datos
+    │
+    ├── migrations/           # Carpeta generada por Flask-Migrate
+    ├── requirements.txt      # Dependencias del proyecto
+    ├── config.py             # Configuración general
+    ├── run.py                # Punto de entrada de la aplicación
+    └── README.md             # Este archivo
+
+---
+
+## 💬 Posibles Mejoras Futuras
+
+- Implementación de autenticación con JWT.  
+- Integración con Google Maps API.  
+- Sistema de notificaciones por correo electrónico.  
+- Modo oscuro (dark mode).  
+- Panel administrativo avanzado con estadísticas.
+
+---
+
+## 📸 Capturas de Pantalla *(Opcional)*
+
+> Podés agregar imágenes de la app en funcionamiento cuando esté subida a GitHub.
+
+---
+
+## 📄 Licencia
+
+Este proyecto fue desarrollado con fines educativos para la materia **Programación Web Full Stack**, dentro del **IES 9023** (Mendoza, Argentina).
+
+---
+
+## ❤️ Agradecimientos
+
+A nuestro profesor y compañeros por el acompañamiento y guía durante el desarrollo del proyecto.  
+Y a toda la comunidad mendocina que nos inspira a promover su cultura y gastronomía 🍇.
+
