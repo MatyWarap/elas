@@ -120,7 +120,7 @@ El proyecto sigue el patrón **MVC (Modelo - Vista - Controlador)**:
 
 1. **Clonar el repositorio**
    ```bash
-   git clone https://github.com/usuario/Mesa-Mendocina-App-Web-Full-Stack.git
+   git clone https://github.com/EnzoER16/Mesa-Mendocina-App-Web-Full-Stack.git
    cd Mesa-Mendocina-App-Web-Full-Stack
 
 2. **Crear un entorno virtual**
