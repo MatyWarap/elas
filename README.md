@@ -206,7 +206,7 @@ El proyecto sigue el patrón **MVC (Modelo - Vista - Controlador)**:
 
 ## 📄 Licencia
 
-Este proyecto fue desarrollado con fines educativos para la materia **Programación Web Full Stack**, dentro del **IES 9023** (Mendoza, Argentina).
+Este proyecto fue desarrollado con fines educativos para la materia **Programación II**, dentro del **IES 9023** (Mendoza, Argentina).
 
 ---
 
