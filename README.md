@@ -128,6 +128,7 @@ El proyecto sigue el patrón **MVC (Modelo - Vista - Controlador)**:
    Python -m venv vevnv
    
 3. **Activar el entorno virtual**
+   
    [Windows]
    ```bash
    venv/scripts/actívate
